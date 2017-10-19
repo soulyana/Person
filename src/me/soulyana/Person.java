@@ -13,20 +13,11 @@ public class Person {
         this.lastName = "Doe";
         this.address = "123 Dream St., Dreamville, USA";
         this.phone = "1234567890";
-        this.email = "John.Doe@email.com";
+        this.email = "John.Doe@gmail.com";
     }
 
-    public Person(String fNameIn, String lNameIn, String addyIn, String phoneIn, String emailIn) {
-        this.firstName = fNameIn;
-        this.lastName = lNameIn;
-        this.address = addyIn;
-        this.phone = phoneIn;
-        this.email = emailIn;
-    }
 
-    public String getFirstName() {
-        return firstName;
-    }
+    public String getFirstName() { return firstName; }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
